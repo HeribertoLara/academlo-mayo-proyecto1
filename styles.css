@@ -4,12 +4,17 @@
     font-weight: normal;
     font-family: 'Rubik',sans-serif;
 }
+body{
+    background-color: white;
+}
 #intro{
-    /*background-color: grey;*/
+    background-color:#f8f9fa;
     min-height: 100vh;
 }
-.intro.title{
-    font: size 40px;
+.intro-title{
+    font-size: 60px;
+    font-weight: 400;
+    color:#282828
 }
 .intro-subtitle{
     font: size 20px;
@@ -26,9 +31,10 @@
     /* trabajos */
 .t-subtitle{
     font-weight: bolder;
+    text-align: center;
 }
 .box-trabajos{
-    width:50%;
+    width:70%;
     margin: 0 auto;
     margin-top: 50px;
 }
@@ -41,5 +47,12 @@ letter-spacing: 5px;
 h4 h2{
     font-weight: bolder;
 }
-
-  
+.interlineado{
+    line-height: 40px;
+}
+.bolder-text{
+    font-weight: bolder;
+}
+.font-date{
+    font-size: small;
+}

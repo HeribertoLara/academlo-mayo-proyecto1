@@ -1,9 +1,9 @@
 /*helpers */
 .bglight{
-    background-color: #f8f8f8 ¡important;
+    background-color: #f8f9fa!important;
 }
 .text-center{
-    text-align: center;
+    text-align: center!important;
 }
 /* Flex */
 .d-flex{
@@ -34,9 +34,6 @@
 s.pace-top-sm{
     margin-top: 15px;
 }
-.t-center{
-    text-align:ceter;
-  }
 .bg-white{
     background-color: white;
 }
