@@ -10,6 +10,11 @@
    display: flex;
    flex-wrap: nowrap;
 }
+@media (max-width:768px){
+    .d-flex{
+        display: block;
+    }
+}
 .d-inline-block{
     display: inline-block;
 }
@@ -26,7 +31,10 @@
     background-color: red;
 }
 .bg-blue{
-    background-color: blue;
+    background-color: blue;+
+}
+.bg-black{
+    background-color: #111111;
 }
 .space-top{
     margin-top: 100px;
@@ -36,4 +44,11 @@ s.pace-top-sm{
 }
 .bg-white{
     background-color: white;
+}
+nav li:hover {
+    background: #CAC4C4;
+}
+/* seccion about us caja negra  */
+.text-white{
+    color: white;
 }
