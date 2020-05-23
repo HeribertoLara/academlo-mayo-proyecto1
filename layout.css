@@ -68,7 +68,9 @@
 .padding{
     padding: 3vh ;
 }
-
+.padding-top{
+    padding-top: 10rem;
+}
 .ancla{
     background-color:gray ;
     text-decoration: none;
@@ -104,8 +106,10 @@ nav{
     align-items: center;
     background-color:#f8f9fa;
     box-shadow: 0px 40px 40px 0px rgba(27, 24, 25, 0.04);
+    position: fixed;
 }
 li{
+    display:inline-block;
     list-style: none;
     padding:5px
 }
